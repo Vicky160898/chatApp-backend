@@ -27,7 +27,7 @@ const io = socketIO(server, {
   pingTimeout: 60000,
   //we dont have any cors origin error that why we are writing origin...
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://starlit-selkie-8d8a79.netlify.app/",
   },
 });
 
